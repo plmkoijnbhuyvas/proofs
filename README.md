@@ -1,4 +1,4 @@
-# **MATHEMATICAL STATISTICS I**
+**<h1 align="center">MATHEMATICAL STATISTICS I</h1>**
 
 **CONTENTS:**
 - [2.0 The Fundamental Counting Principle](#2.0)
@@ -66,7 +66,7 @@ possible ways to rearrange them.
 There are $(n_1)!$ ways to arrange $n$ objects around a circle. (assuming rotations are indistinct)
 
 
-# <a name="3">**3.0 Probability Theory**</a>
+# <a name="3.0">**3.0 Probability Theory**</a>
 
 Probability is a real-valued set function $P$ that assigns, to each event $A$ in the sample space $S$, a number $P(A)$, called the probability of the event $A$, such that the following properties are satisfied:
 
@@ -213,19 +213,23 @@ If $A, B$ and $C$ are any three events, then
 $$P(A ∪ B ∪ C) =P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C)− P(B ∩ C) + P(A ∩ B ∩ C)$$
 
 > ***Proof:***
+> Let $B \cup C = D$
 > 
+> $\implies P(A \cup D)$
 > 
+> Using Theorem 3.5, we can re-write $P(A \cup D)$ to
 > 
+> $\implies P(A) + P(D) - P(A \cup D)$
 > 
+> Since $B \cup C = D$ , we can re-write $P(A) + P(D) - P(A \cup D)$ to
 > 
+> $\implies P(A) + P(B \cup C) - P(A \cap (B \cup C))$
 > 
+> $\implies P(A) + P(B) + P(C) - P(B \cap C) - P((A \cap B) \cup (A \cap C))$
 > 
+> $\implies P(A) + P(B) + P(C) - P(B \cap C) - (P(A \cap B) + P(A \cap C) - P(A \cap B \cap C))$
 > 
-> 
-> 
-> 
-> 
-> 
+> $\implies P(A) + P(B) + P(C) - P(B \cap C) - P(A \cap B) - P(A \cap C) + P(A \cap B \cap C)$ □
 
 
 
