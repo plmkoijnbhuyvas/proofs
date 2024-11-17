@@ -46,13 +46,12 @@ $$n!= \begin{cases} 1 &\text{if }  n=0  \\ n(n-1)! &\text{if } n > 0 \end{cases}
 
 There are $n!$ ways to rearrange $n$ distinct objects
 
-> ***Proof:*** Let there be n distinct objects in the set $S = {x1, x2, · · · , xn}$. Then there are $n$ possible objects that can placed in the first position. Since this object cannot be placed again in the next position, there are $n − 1$ remaining possible objects that can be placed second. There are $n − 2$ on the next, and so on. This manner continues until the last position in which only one object can possibly be placed. By [GFCP](#Theorem2.2) we find that there are:
+> ***Proof:*** Let there be n distinct objects in the set $S = {x1, x2, · · · , xn}$. Then there are $n$ possible objects that can placed in the first position. Since this object cannot be placed again in the next position, there are $n − 1$ remaining possible objects that can be placed second. There are $n − 2$ on the next, and so on. This manner continues until the last position in which only one object can possibly be placed. By [GFCP](#2.2) we find that there are:
 > 
-> 
-> |$n$|$n − 1$| $n − 2$|$· · ·$| $1$ | 
+> |$n$|$n − 1$| $n − 2$|$· · ·$| $1$ |
 >|-|-|-|-|-|
 >
-> $= n(n − 1)(n − 2)· · ·(1) = n!$
+> $$n(n − 1)(n − 2)· · ·(1) = n!$$
 
 ## <a name="2.4"><u>**Theorem 2.4** : *Linear Arrangement with Indistinct Elements*</u></a>
 
@@ -68,14 +67,13 @@ There are $(n_1)!$ ways to arrange $n$ objects around a circle. (assuming rotati
 
 # <a name="3.0">**3.0 Probability Theory**</a>
 
-Probability is a real-valued set function $P$ that assigns, to each event $A$ in the sample space $S$, a number $P(A)$, called the probability of the event $A$, such that the following properties are satisfied:
+Probability is a real-valued set function $P$ that assigns, to each event $A$ in the sample space $S$ , a number $P(A)$ , called the probability of the event $A$ , such that the following properties are satisfied:
 
 |Axiom|Definiton|
 |-|-|
-|Axiom 1:| $P(A) ≥ 0$|
-|Axiom 2:| $P(S) = 1$|
-|Axiom 3:|if $A_1, A2, _A3, · · ·$ are events and $A_i ∩ A_j = ∅$, $i \neq j$, then $P(A_1 ∪ A_2 ∪ A_3 ∪ · · · ∪ A_k) = P (A_1) + P (A_2) + P (A_3) + · · · + P (A_k)$ for each $k ∈\mathbb{Z}^+$ and $P (A_1 ∪ A_2 ∪ A_3 ∪ · · · ) = P (A_1) + P (A_2) + P (A_3) + · · .$ for an infinite, but countable number of events.
-|
+|Axiom 1| $P(A) ≥ 0$|
+|Axiom 2| $P(S) = 1$|
+|Axiom 3|if $A_1, A2, _A3, · · ·$ are events and $A_i ∩ A_j = ∅$ , $i \neq j$ , then $P(A_1 ∪ A_2 ∪ A_3 ∪ · · · ∪ A_k) = P (A_1) + P (A_2) + P (A_3) + · · · + P (A_k)$ for each $k ∈\mathbb{Z}^+$ and $P (A_1 ∪ A_2 ∪ A_3 ∪ · · · ) = P (A_1) + P (A_2) + P (A_3) + ...$ for an infinite, but countable number of events.|
 
 
 
@@ -85,17 +83,17 @@ $$P(A) = 1 − P(A')$$
 
 > ***Proof:***
 > 
-> *Using the [Axiom 2]() of the definition of probability stating that $P(S) = 1$ , we can have*
+> Using the [Axiom 2]() of the definition of probability stating that $P(S)=1$ , we can have
 > 
 > $\implies P(A) = P(S) - P(A')$
 > 
 >  $\implies P(A)  + P(A')= P(S)$
 >  
->  *Since $A \cap A' = ∅$, we can use Axiom 3 of the definition of probability*
+>  Since $A \cap A' = ∅$ , we can use Axiom 3 of the definition of probability
 >  
 >  $\implies P(A \cup A')= P(S)$
 >  
->  *Using "Compliment Laws" in Set Theory, we can have $A \cup  A' = S, then$*
+>  Using "Compliment Laws" in Set Theory, we can have $A \cup  A' = S$ , then
 >
 >  $\implies P(S)= P(S)$ □
 
@@ -117,7 +115,7 @@ $$P(∅) = 0$$
 
 
 ## <a name="3.3">**Theorem 3.3** : _The Probability Concerning Subsets_</a>
- If events $A$ and $B$ are such that $A \subseteq B$, then:
+ If events $A$ and $B$ are such that $A \subseteq B$ , then:
  
  $$P(A) ≤ P(B)$$
 
@@ -179,17 +177,15 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 >
 > Since $P(A \cup (A' \cap B))=\varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write
 > 
-> $\implies P(A) + P(A' \cap B))$
+> $\implies P(A) + P(A' \cap B)$
 > 
-> Using ***Set Identity***, we can get $P(B) - P(A \cap B$ from $P(A' \cap B)$
+> Using ***Set Identity***, we can get $P(B) - P(A \cap B)$ from $P(A' \cap B)$
 > >***Proof:***
 > > $$P (A' \cap B) = P(B) - P(A \cap B)$$
 > > 
 > > $\implies P (A' \cap B) + P(A \cap B)= P(B)$
 > > 
-> > Since $(A' \cap B) \cap (A \cap B)= \varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write $P (A' \cap B) + P(A \cap B)$
-> > 
-> > $\implies P (A' \cap B) \cup (A \cap B)) = P(B)$
+> > Since $(A' \cap B) \cap (A \cap B)= \varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write $P (A' \cap B) + P(A \cap B)$ to
 > > 
 > > $\implies P (A' \cap B) \cup (A \cap B)) = P(B)$
 > > 
@@ -250,18 +246,19 @@ where $N(A) =$ is the <u>number of ways that A can occur</u> and $N(S) =$ is the
 
 Event $A$, given that event $B$ has occurred, is defined by $$P (A|B) = P (A ∩ B) P (B)$$  where $$P (A ∩ B) = N(A ∩ B) N(S),$$ $$P (B) = N(B) N(S)$$ provided that $P(B) > 0$
 > **NOTE:** $P(A|B)$ read as the probability of $A$ given that $B$ has occured.
-PROOF
 
 ## <a name="MultRule"><u>**Multiplication Rule**</u></a>
 
 The probability that two events, $A$ and $B$, both occur is given by the multiplication rule
-$$P(A ∩ B) = P(B)P(A|B)\text{ for }P(B) > 0$$
-$$P(A ∩ B) = P(A)P(B|A)\text{ for }P(A) > 0$$
+
+$$P(A ∩ B) = P(B)×P(A|B)\text{ for }P(B) > 0$$
+
+$$P(A ∩ B) = P(A)×P(B|A)\text{ for }P(A) > 0$$
 
 
 ## <a name="IndepEve"><u>**Independent Events**</u></a>
 Events $A$ and $B$ are independent if and only if
 
-$$P(A ∩ B) = P(A)P(B)$$
+$$P(A ∩ B) = P(A)×P(B)$$
 
 Otherwise, $A$ and $B$ are called dependent events.
