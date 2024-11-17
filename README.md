@@ -171,6 +171,7 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 > ***Proof:***
 > 
 > Using Distributing Law, we can get $A \cup (A' \cap B)$ from $A \cup B$
+> 
 > >***Proof:***
 > >$$A \cup B = A \cup (A' \cap B) $$
 > >$\implies S \cap (A \cup B)$
@@ -178,10 +179,12 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 > >$\implies A \cup (A' \cap B)$ □
 > 
 > Thus we can re-write
+> 
 > $\implies P(A \cup B)$
+> 
 > $\implies P(A \cup (A' \cap B))$
 >
-> Since $P(A \cup (A' \cap B)=\varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write
+> Since $P(A \cup (A' \cap B))=\varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write $\implies P(A \cup (A' \cap B))$
 > 
 > $\implies P(A) + P(A' \cap B))$
 > 
@@ -203,7 +206,7 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 > > 
 > > $\implies P (B ) = P(B)$
 > 
-> Then it is safe to re-write
+> Then it is safe to re-write $\implies P(A) + P(A' \cap B))$ to
 > 
 > $\implies P(A) + P(B) − P(A ∩ B)$
 > 
