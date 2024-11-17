@@ -25,7 +25,7 @@
 
 # <a name="2.0">2.0 The Fundamental Counting Principle
 
-## <a name="2.1"><u>**Theorem 2.1** : *Fundamental Counting Rules*</u>
+## <a name="2.1"><u>**Theorem 2.1** : *Fundamental Counting Rules*</u></a>
 
 Suppose there are two experiments, the first one having $m$ possible outcomes and the second having $n$ possible outcomes. Then, together, both experiments have $mn$ possible outcomes.
 
@@ -36,7 +36,7 @@ Suppose there are two experiments, the first one having $m$ possible outcomes an
 
 If **$r$** experiments have $n_1, n_2, · · · , n_r$ possible outcomes, respectively, then altogether, there are $n_1n_2 · · · n_r$ possible outcomes.
 
-### <a name="FF"><u>Factorial Function</u>
+### <a name="FF"><u>Factorial Function</u></a>
 For a nonnegative integer n, we define the factorial of n, denoted n! by:
 
 $$n!= \begin{cases} 1 &\text{if }  n=0  \\ n(n-1)! &\text{if } n > 0 \end{cases} $$
@@ -54,7 +54,7 @@ There are $n!$ ways to rearrange $n$ distinct objects
 >
 > $= n(n − 1)(n − 2)· · ·(1) = n!$
 
-## <a name="2.4"><u>**Theorem 2.4** : *Linear Arrangement with Indistinct Elements*</u>
+## <a name="2.4"><u>**Theorem 2.4** : *Linear Arrangement with Indistinct Elements*</u></a>
 
 Let there be n distinct objects, each object appearing $r_1, r_2, ··· , r_n$ times, respectively. Then, there are
 
@@ -62,11 +62,11 @@ $$\frac{(r_1 + r_2 + r_3 + ··· + r_n)!}{r_1!r_2!r_3! ··· r_n!}$$
 
 possible ways to rearrange them.
 
-## <a name="2.5"><u>**Theorem 2.5** : *Circular Arrangements*</u>
+## <a name="2.5"><u>**Theorem 2.5** : *Circular Arrangements*</u></a>
 There are $(n_1)!$ ways to arrange $n$ objects around a circle. (assuming rotations are indistinct)
 
 
-# <a name="3">**3.0 Probability Theory**
+# <a name="3">**3.0 Probability Theory**</a>
 
 Probability is a real-valued set function $P$ that assigns, to each event $A$ in the sample space $S$, a number $P(A)$, called the probability of the event $A$, such that the following properties are satisfied:
 
@@ -79,7 +79,7 @@ Probability is a real-valued set function $P$ that assigns, to each event $A$ in
 
 
 
-## <a name="3.1">**Theorem 3.1** : _Complement Rule_
+## <a name="3.1">**Theorem 3.1** : _Complement Rule_</a>
 
 $$P(A) = 1 − P(A')$$
 
@@ -99,7 +99,7 @@ $$P(A) = 1 − P(A')$$
 >
 >  $\implies P(S)= P(S)$ □
 
-## <a name="3.2">**Theorem 3.2** : _The Probability of the Empty Set_
+## <a name="3.2">**Theorem 3.2** : _The Probability of the Empty Set_</a>
 $$P(∅) = 0$$
 > 
 > ***Proof:***
@@ -116,7 +116,7 @@ $$P(∅) = 0$$
 
 
 
-## <a name="3.3">**Theorem 3.3** : _The Probability Concerning Subsets_
+## <a name="3.3">**Theorem 3.3** : _The Probability Concerning Subsets_</a>
  If events $A$ and $B$ are such that $A \subseteq B$, then:
  
  $$P(A) ≤ P(B)$$
@@ -137,7 +137,7 @@ $$P(∅) = 0$$
 
 
 
-## <a name="3.4">Theorem 3.4: The Probability of Every Event
+## <a name="3.4">Theorem 3.4: *The Probability of Every Event*</a>
 For each event A, 
 
 $$P(A) ≤ 1$$
@@ -158,7 +158,7 @@ $$P(A) ≤ 1$$
 > 
 
 
-## <a name="3.5">Theorem 3.5: The Probability of a Union of Two Events
+## <a name="3.5">Theorem 3.5: *The Probability of a Union of Two Events*</a>
 If $A$ and $B$ are two events, then
 
 $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
@@ -207,7 +207,7 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 
 
 
-## <a name="3.6">Theorem 3.6: The Probability of a Union of Three Events
+## <a name="3.6">Theorem 3.6: *The Probability of a Union of Three Events*</a>
 If $A, B$ and $C$ are any three events, then 
 
 $$P(A ∪ B ∪ C) =P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C)− P(B ∩ C) + P(A ∩ B ∩ C)$$
@@ -230,7 +230,7 @@ $$P(A ∪ B ∪ C) =P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C)− P(B ∩ 
 
 
 
-## <a name="DefProbab"><u>**Definition of Probability**</u>
+## <a name="DefProbab"></a><u>**Definition of Probability**</u>
 Let a probability set function be defined on a sample space $S$. Let $S = {e_1, e_2, ..., e_m}$, where each $e_i$ is a possible outcome of the experiment. The integer $m$ is called the <u>total number of ways in which the random experiment can terminate</u>. If each of these outcomes has the same probability of occurring, we say that the $m$ outcomes are equally likely. That is:
 
 $$P({e_i}) = \frac{1}{m}$$
@@ -242,20 +242,20 @@ $$P(A) = \frac{h}{m} = \frac{N(A)}{N(S)}$$
 
 where $N(A) =$ is the <u>number of ways that A can occur</u> and $N(S) =$ is the <u>total number of ways that S can occur.</u>
 
-## <a name="ConditionalProb"><u>**Conditional Probability**</u>
+## <a name="ConditionalProb"><u>**Conditional Probability**</u></a>
 
 Event $A$, given that event $B$ has occurred, is defined by $$P (A|B) = P (A ∩ B) P (B)$$  where $$P (A ∩ B) = N(A ∩ B) N(S),$$ $$P (B) = N(B) N(S)$$ provided that $P(B) > 0$
 > **NOTE:** $P(A|B)$ read as the probability of $A$ given that $B$ has occured.
 PROOF
 
-## <a name="MultRule"><u>**Multiplication Rule**</u>
+## <a name="MultRule"><u>**Multiplication Rule**</u></a>
 
 The probability that two events, $A$ and $B$, both occur is given by the multiplication rule
 $$P(A ∩ B) = P(B)P(A|B)\text{ for }P(B) > 0$$
 $$P(A ∩ B) = P(A)P(B|A)\text{ for }P(A) > 0$$
 
 
-## <a name="IndepEve"><u>**Independent Events**</u>
+## <a name="IndepEve"><u>**Independent Events**</u></a>
 Events $A$ and $B$ are independent if and only if
 
 $$P(A ∩ B) = P(A)P(B)$$
