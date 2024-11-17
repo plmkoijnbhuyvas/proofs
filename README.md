@@ -23,6 +23,30 @@
 
 ---
 
+# 1.0 Experiments and Outcomes
+
+In the study of statistics, we consider experiments for which the outcome cannot be predicted with certainty. Such experiments are called **random experiments**. Although the specific outcome of a random experiment cannot be predicted with certainty before the experiment is performed, the collection of all possible outcomes is known and can be described and perhaps listed.
+
+The collection of all possible outcomes is denoted by $S$ and is called the **outcome space**.
+
+The set of all possible outcomes of a random experiment is called
+its **sample space**, denoted $S$ .
+
+Each possible outcomes of a random experiment (i.e. each elements of the sample space) is called a **sample points**.
+
+## Ways of obtaining the Sample Space
+
+### Listing Method
+In listing method, the sample space is obtained through naming all possible outcomes. If an experiment involves $n$ sub experiments, we denote each sample point by ( $x_1, x_2, · · · , x_n$ ) where $x_i , i ∈ ,\mathbb{N}$ are the results of the $n^{th}$ sub experiments.
+
+### Tree Diagramming
+A **tree diagram** is a tree graph starting from one vertex branching out to levels. Each level represent the outcomes of a subexperiment
+
+### Tabular Method
+For an experiment with two subexperiments $S_1$ and $S_2$, the sample points can be derived from the Cartesian product $S_1 × S_2$ .
+
+
+
 # <a name="2.0">2.0 The Fundamental Counting Principle
 
 ## <a name="2.1"><u>**Theorem 2.1** : *Fundamental Counting Rules*</u></a>
