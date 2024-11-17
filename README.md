@@ -213,11 +213,11 @@ $$P(A ∪ B ∪ C) =P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C)− P(B ∩ 
 > 
 > $\implies P(A \cup D)$
 > 
-> Using Theorem 3.5, we can re-write $P(A \cup D)$ to
+> Using Theorem 3.5, we can re-write $P(A \cap D)$ to
 > 
-> $\implies P(A) + P(D) - P(A \cup D)$
+> $\implies P(A) + P(D) - P(A \cap D)$
 > 
-> Since $B \cup C = D$ , we can re-write $P(A) + P(D) - P(A \cup D)$ to
+> Since $B \cup C = D$ , we can re-write $P(A) + P(D) - P(A \cap D)$ to
 > 
 > $\implies P(A) + P(B \cup C) - P(A \cap (B \cup C))$
 > 
