@@ -170,18 +170,47 @@ $$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$$
 
 > ***Proof:***
 > 
+> Using Distributing Law, we can get $A \cup (A' \cap B)$ from $A \cup B$
+> >***Proof:***
+> >$$A \cup B = A \cup (A' \cap B) $$
+> >$\implies S \cap (A \cup B)$
+> >$\implies (A \cup A') \cap (A \cup B)$
+> >$\implies A \cup (A' \cap B)$ □
 > 
+> Thus we can re-write
+> $\implies P(A \cup B)$
+> $\implies P(A \cup (A' \cap B))$
+>
+> Since $P(A \cup (A' \cap B)=\varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write
 > 
+> $\implies P(A) + P(A' \cap B))$
 > 
+> Using ***Set Identity***, we can get $P(B) - P(A \cap B$ from $P(A' \cap B)$
+> >***Proof:***
+> > $$P (A' \cap B) = P(B) - P(A \cap B)$$
+> > 
+> > $\implies P (A' \cap B) + P(A \cap B)= P(B)$
+> > 
+> > Since $(A' \cap B) \cap (A \cap B)= \varnothing$ , with the help of Axiom 3 of the definition of probability, we can re-write
+> > 
+> > $\implies P (A' \cap B) \cup (A \cap B)) = P(B)$
+> > 
+> > $\implies P (A' \cap B) \cup (A \cap B)) = P(B)$
+> > 
+> > $\implies P (B \cap ( A' \cup A)) = P(B)$
+> > 
+> > $\implies P (B \cap (S)) = P(B)$
+> > 
+> > $\implies P (B ) = P(B)$
 > 
+> Then it is safe to re-write
 > 
+> $\implies P(A) + P(B) − P(A ∩ B)$
 > 
+> Thus,
 > 
-> 
-> 
-> 
-> 
-> 
+> $P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$ □
+
 
 
 ## Theorem 3.6: The Probability of a Union of Three Events
