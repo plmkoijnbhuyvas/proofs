@@ -268,7 +268,11 @@ where $N(A) =$ is the <u>number of ways that A can occur</u> and $N(S) =$ is the
 
 ## <a name="ConditionalProb"><u>**Conditional Probability**</u></a>
 
-Event $A$, given that event $B$ has occurred, is defined by $$P (A|B) = P (A ∩ B) P (B)$$  where $$P (A ∩ B) = N(A ∩ B) N(S),$$ $$P (B) = N(B) N(S)$$ provided that $P(B) > 0$
+Event $A$, given that event $B$ has occurred, is defined by 
+
+$$P (A|B) = P (A ∩ B) P (B)$$  
+
+where $$P (A ∩ B) = N(A ∩ B) N(S),$$ $$P (B) = N(B) N(S)$$ provided that $P(B) > 0$
 > **NOTE:** $P(A|B)$ read as the probability of $A$ given that $B$ has occured.
 
 ## <a name="MultRule"><u>**Multiplication Rule**</u></a>
